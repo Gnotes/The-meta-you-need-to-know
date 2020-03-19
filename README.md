@@ -14,6 +14,20 @@
 
 Meta 常用于搜索引擎优化（SEO），定义页面编码语言(UTF-8)，页面缓存控制...(看完就明白了)，除此之外还可以 _自定义_ 一些用于页面运行中会用到的参数，如：发布模式(development or production)，API 地址(/api/github/com)等等。
 
+### Meta 的使用方式
+
+`<meta>` 的使用是通过 `name` 或者 `http-equiv`，组合 `content` 来使用的；
+
+> 在没有定义 name 属性的时候，http-equiv 属性的值会作为 name 属性的值；
+>
+> 除此有一个特例：`charset`：是 HTML5 中的新属性，且替换了：`<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">`，但仍然允许使用 http-equiv 属性来规定字符集，但是使用新方法可以减少代码量
+
+```html
+<meta name="" content="" />
+<!-- 或者 -->
+<meta http-equiv="" content="" />
+```
+
 ### 参考
 
 - [一俢 | html meta](https://www.jianshu.com/p/6549bec5d0e1)
