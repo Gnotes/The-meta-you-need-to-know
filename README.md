@@ -10,6 +10,10 @@
 ---- <a href="https://baike.baidu.com/item/%E5%85%83%E6%95%B0%E6%8D%AE/1946090" target="_blank">百度百科</a>
 </div>
 
+### Meta 能做些什么
+
+Meta 常用于搜索引擎优化（SEO），定义页面编码语言(UTF-8)，页面缓存控制...(看完就明白了)，除此之外还可以 _自定义_ 一些用于页面运行中会用到的参数，如：发布模式(development or production)，API 地址(/api/github/com)等等。
+
 ### 参考
 
 - [一俢 | html meta](https://www.jianshu.com/p/6549bec5d0e1)
