@@ -6,7 +6,7 @@
 
 在说 meta 之前我们先来了解下 `Metadata`，翻译过来是 **元数据**，是描述数据的数据(data about data)，用于描述数据属性（property）的信息，_在 HTML 中就是描述页面属性的一些描述信息_
 
-<div style="text-align: right;padding-right: 40px;">
+<div align="right">
 ---- <a href="https://baike.baidu.com/item/%E5%85%83%E6%95%B0%E6%8D%AE/1946090" target="_blank">百度百科</a>
 </div>
 
